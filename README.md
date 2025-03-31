@@ -4,16 +4,19 @@ processing websocket library for broadband communication
 
 프로세싱용 웹소켓 라이브러리로, 단순 서버, 클라이언트 통신 뿐 아니라 고대역폭 데이터 통신 또한 가능합니다. 
 라이다 센서의 클라우드포인트 데이터를 주고 받기 위한 용도로 설계되었으나, 일반적인 웹소켓 용으로 사용 가능하며, 단순 메시지 이외에 다양한 string buffer를 주고 받을 수 있습니다. 
+
 A WebSocket library for processing that supports not only simple server-client communication but also high-bandwidth data transmission.
 It was designed for exchanging LiDAR sensor point cloud data but can be used as a general WebSocket library. In addition to simple messages, it allows the transmission of various string buffers.
 
 lidarws/src/main/java/com/lidarws
 경로에 라이브러리 빌드를 위한 java 가 있습니다. 
+
 There is a Java file in the path for building the library.
 
 WebSocketServer.java
 WebSockerServerEndPoint.java  
 위 두 파일은 웹소켓 서버를 생성합니다. 
+
 The two files above create a WebSocket server.
 
 WebSocketClientMessage.java
